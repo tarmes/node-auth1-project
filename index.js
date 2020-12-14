@@ -1,11 +1,9 @@
-const express = require('express');
-const helmet = require('helmet');
-const cors = require('cors');
+require('dotenv').config();
 
-const server = express();
+const server = require('./api/server.js');
 
-server.use(helmet());
-server.use(express.json());
-server.use(cors());
+const port = process.env.PORT || 5000;
 
-module.exports = server;
+server.listen(port, () => {
+   console.log(`\n** Running on port ${port} **\n`)
+});
