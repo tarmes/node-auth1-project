@@ -1,0 +1,27 @@
+{
+  "name": "node-auth1-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarmes/node-auth1-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarmes/node-auth1-project/issues"
+  },
+  "homepage": "https://github.com/tarmes/node-auth1-project#readme",
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
